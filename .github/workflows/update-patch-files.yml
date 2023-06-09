@@ -11,7 +11,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Update patch files
-        uses: jayree/update-patch-files@v1.4
+        uses: jayree/update-patch-files@v1
         with:
           GitHubAppId: ${{ secrets.GitHubAppId }}
           GitHubAppPrivateKey: ${{ secrets.GitHubAppPrivateKey }}
